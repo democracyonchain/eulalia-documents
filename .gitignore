@@ -1,0 +1,38 @@
+# === Archivos de documentación Word ===
+*.doc
+*.docx
+
+# === Archivos de Office/temporales ===
+~$*
+*.tmp
+*.bak
+
+# === Configuración del sistema ===
+.DS_Store
+Thumbs.db
+
+# === Archivos de compilación y binarios .NET ===
+bin/
+obj/
+*.dll
+*.exe
+
+# === Archivos de configuración de usuario de Visual Studio ===
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# === Archivos de log ===
+*.log
+
+# === Configuración de Rider / JetBrains ===
+.idea/
+*.iml
+
+# === Archivos de entorno / sistema ===
+.env
+*.swp
+
+# === Git ===
+!.gitignore
