@@ -1,0 +1,48 @@
+﻿Serie de pruebas para C:\Users\User\Documents\David\Personal\Proyectos\DigitalvoterID\coding\eulalia-backend\eulalia-backend.Api\bin\Debug\net8.0\eulalia-backend.Api.dll (.NETCoreApp,Version=v8.0)
+Herramienta de l├¡nea de comandos de ejecuci├│n de pruebas de Microsoft(R), versi├│n 17.9.0 (x64)
+Copyright (c) Microsoft Corporation. Todos los derechos reservados.
+
+Iniciando la ejecuci├│n de pruebas, espere...
+1 archivos de prueba en total coincidieron con el patr├│n especificado.
+dotnet : El proceso del host de prueba para fuentes "C:\Users\User\Documents\David\Personal\Proyectos\DigitalvoterID\co
+ding\eulalia-backend\eulalia-backend.Api\bin\Debug\net8.0\eulalia-backend.Api.dll" finaliz├│ con el siguiente error: 
+Error:
+En línea: 1 Carácter: 1
++ dotnet test --verbosity quiet 2>&1 | Out-File -FilePath "C:\Users\Use ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (El proceso del ...e error: Error::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  An assembly specified in the application dependencies manifest (testhost.deps.json) was not found:
+    package: 'Newtonsoft.Json', version: '13.0.1'
+    path: 'lib/netstandard2.0/Newtonsoft.Json.dll'
+. Consulte los registros de diagn├│stico para obtener m├ís informaci├│n.
+
+Serie de pruebas anulada.
+C:\Users\User\Documents\David\Personal\Proyectos\DigitalvoterID\coding\eulalia-backend\eulalia-backend.Tests\Controllers\AfiliacionControllerTest.cs(69,25): warning CS8602: Desreferencia de una referencia posiblemente NULL. [C:\Users\User\Documents\David\Personal\Proyectos\DigitalvoterID\coding\eulalia-backend\eulalia-backend.Tests\eulalia-backend.Tests.csproj]
+C:\Users\User\Documents\David\Personal\Proyectos\DigitalvoterID\coding\eulalia-backend\eulalia-backend.Tests\Controllers\AfiliacionControllerTest.cs(89,24): warning CS8602: Desreferencia de una referencia posiblemente NULL. [C:\Users\User\Documents\David\Personal\Proyectos\DigitalvoterID\coding\eulalia-backend\eulalia-backend.Tests\eulalia-backend.Tests.csproj]
+C:\Users\User\Documents\David\Personal\Proyectos\DigitalvoterID\coding\eulalia-backend\eulalia-backend.Tests\Controllers\AfiliacionControllerTest.cs(110,13): warning CS8602: Desreferencia de una referencia posiblemente NULL. [C:\Users\User\Documents\David\Personal\Proyectos\DigitalvoterID\coding\eulalia-backend\eulalia-backend.Tests\eulalia-backend.Tests.csproj]
+Serie de pruebas para C:\Users\User\Documents\David\Personal\Proyectos\DigitalvoterID\coding\eulalia-backend\eulalia-backend.Tests\bin\Debug\net8.0\eulalia-backend.Tests.dll (.NETCoreApp,Version=v8.0)
+Herramienta de l├¡nea de comandos de ejecuci├│n de pruebas de Microsoft(R), versi├│n 17.9.0 (x64)
+Copyright (c) Microsoft Corporation. Todos los derechos reservados.
+
+Iniciando la ejecuci├│n de pruebas, espere...
+1 archivos de prueba en total coincidieron con el patr├│n especificado.
+     Warning:
+     The component "Fluent Assertions" is governed by the rules defined in the Xceed License Agreement and
+     the Xceed Fluent Assertions Community License. You may use Fluent Assertions free of charge for
+     non-commercial use only. An active subscription is required to use Fluent Assertions for commercial use.
+
+     Please contact Xceed Sales mailto:sales@xceed.com to acquire a subscription at a very low cost.
+
+     A paid commercial license supports the development and continued increasing support of
+     Fluent Assertions users under both commercial and community licenses. Help us
+     keep Fluent Assertions at the forefront of unit testing.
+
+     For more information, visit https://xceed.com/products/unit-testing/fluent-assertions/
+[xUnit.net 00:00:03.38]     eulalia_backend.Tests.Controllers.AfiliacionControllerTests.Create_ShouldAddAfiliacion 
+[FAIL]
+[xUnit.net 00:00:00.23]     eulalia_backend.Tests.Controllers.AfiliacionControllerTests.Create_ShouldAddAfiliacion 
+[FAIL]
+
+Con error! - Con error:     2, Superado:   130, Omitido:     0, Total:   132, Duraci├│n: 1 s - eulalia-backend.Tests.dll (net8.0)

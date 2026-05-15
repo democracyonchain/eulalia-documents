@@ -10,6 +10,7 @@ Repository containing technical documentation, test evidence, and coverage repor
 
 ```
 eulalia-documents/
+├── integration-validation/         # Integration evidence (logs + screenshots) / Evidencia de integracion
 ├── technical-document/
 │   ├── Technical_Document_Of_The_Integration_Scheme (EN).pdf
 │   └── Technical_Document_Of_The_Integration_Scheme (ES).pdf
@@ -65,6 +66,7 @@ Repositorio que contiene la documentación técnica, evidencia de pruebas y repo
 
 ```
 eulalia-documents/
+├── integration-validation/         # Evidencia de integracion (logs + capturas)
 ├── technical-document/
 │   ├── Technical_Document_Of_The_Integration_Scheme (EN).pdf
 │   └── Technical_Document_Of_The_Integration_Scheme (ES).pdf
