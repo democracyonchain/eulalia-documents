@@ -1,0 +1,6 @@
+﻿shared-apisix-1	Up 6 hours	9443/tcp, 0.0.0.0:8080->9080/tcp
+shared-cloud-agent-1	Up 6 hours (healthy)	8080/tcp, 8085/tcp, 8090/tcp
+shared-prism-node-1	Up 6 hours	5432/tcp
+shared-db-1	Up 6 hours (healthy)	127.0.0.1:5433->5432/tcp
+shared-vault-server-1	Up 6 hours (healthy)	8200/tcp
+shared-swagger-ui-1	Up 6 hours	80/tcp, 8080/tcp

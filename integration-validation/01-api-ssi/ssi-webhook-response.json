@@ -1,0 +1,14 @@
+{
+  "endpoint": "POST /api/SSI/webhook",
+  "timestamp": "2026-05-15T10:25:00Z",
+  "request": {
+    "eventType": "ConnectionEstablished",
+    "connectionId": "test-evidence-001",
+    "theirLabel": "VoterID-Evidence"
+  },
+  "response": {
+    "statusCode": 200,
+    "body": "Webhook processed successfully"
+  },
+  "evidence": "SSI webhook integration working"
+}
